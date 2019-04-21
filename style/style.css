@@ -65,6 +65,33 @@ h1, h2 {
   flex-flow: row wrap;
 }
 
+.project-image {
+  position: relative;
+  width: 50%;
+}
+
+.project-image > p {
+  position: absolute;
+  left: 25%;
+  top: 0;
+  color: yellow;
+  font-size: 3em;
+  text-shadow: 1px 1px 1px black;
+  width: 0;
+  overflow-x: visible;
+  display: inline-block;
+}
+
+.project div {
+  display: inline-block;
+  width: 45%;
+  margin-left: 1em;
+  margin-top: auto;
+  top: 0;
+  position: relative;
+  vertical-align: middle;
+}
+
 .social > span {
   margin-left: 1%;
   margin-right: 1%;
@@ -87,7 +114,6 @@ h1, h2 {
 
 p {
   text-align: justify;
-  min-width: 10em;
 }
 
 img {
