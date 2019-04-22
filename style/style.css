@@ -4,7 +4,6 @@ html {
 }
 
 body {
-  /* background-image: url("../images/background_image.jpg"); */
   height: 100%;
   background-image: linear-gradient(#555, #fff);
   font-family: 'Roboto Mono', monospace;
@@ -31,7 +30,7 @@ h1, h2 {
 
 #stylewrapper {
   width: 66%;
-  margin: 1em auto;
+  margin: 0.333em auto 0em;
   padding: 0.1em 3em 0.5em;
   background-image: url("../images/marble.png");
   background-size: cover;
