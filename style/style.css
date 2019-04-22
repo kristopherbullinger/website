@@ -75,7 +75,7 @@ h1, h2 {
   top: 1em;
   color: yellow;
   font-size: 1.5em;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 1px black, 1px 1px 5px black;
   width: 0;
   overflow-x: visible;
   display: inline-block;
@@ -95,6 +95,10 @@ h1, h2 {
 .project div p {
   margin-top: 0;
   font-size: 1em;
+}
+
+.project img {
+  filter: grayscale(60%);
 }
 
 .social > span {
@@ -145,10 +149,10 @@ a {
 
   .project div p {
     margin-top: 0;
-    font-size: 0.666em;
+    font-size: 0.8em;
   }
 
   .project .project-title {
-    font-size: 2.5em;
+    font-size: 2.3em;
   }
 }
