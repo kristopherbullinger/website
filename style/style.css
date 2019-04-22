@@ -33,6 +33,7 @@ h1, h2 {
   margin: 0.333em auto 0em;
   padding: 0.1em 3em 0.5em;
   background-image: url("../images/marble.png");
+  background-image: url("../images/background_white_marble.jpg");
   background-size: cover;
 }
 
