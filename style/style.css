@@ -1,6 +1,6 @@
-/* Layout */
 html {
   min-height: 100%;
+  text-shadow: 2px 2px 3px #CCC;
 }
 
 body {
@@ -64,31 +64,36 @@ h1, h2 {
   flex-flow: row wrap;
 }
 
-.project-image {
-  position: relative;
-  width: 50%;
+.project {
+  margin-bottom: 1em;
 }
 
-.project-image > p {
+.project .project-title {
   position: absolute;
   left: 25%;
-  top: 0;
+  top: 1em;
   color: yellow;
-  font-size: 3em;
+  font-size: 1.5em;
   text-shadow: 1px 1px 1px black;
   width: 0;
   overflow-x: visible;
   display: inline-block;
+  margin-top: auto;
 }
 
 .project div {
   display: inline-block;
-  width: 45%;
+  width: 100%;
   margin-left: 1em;
   margin-top: auto;
   top: 0;
   position: relative;
   vertical-align: middle;
+}
+
+.project div p {
+  margin-top: 0;
+  font-size: 1em;
 }
 
 .social > span {
@@ -126,11 +131,23 @@ a {
   color: blue;
 }
 
-/* figcaption{
-  margin-left: 15px;
-} */
+@media only screen and (min-width: 400px) {
+  .project .project-title {
+    font-size: 2em;
+  }
+}
 
+@media only screen and (min-width: 1000px) {
+  .project div {
+    width: 45%;
+  }
 
-* {
-  text-shadow: 2px 2px 3px #CCC;
+  .project div p {
+    margin-top: 0;
+    font-size: 0.666em;
+  }
+
+  .project .project-title {
+    font-size: 2.5em;
+  }
 }
